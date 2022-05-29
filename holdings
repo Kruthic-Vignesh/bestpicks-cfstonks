@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May 19 18:03:55 2022
+
+@author: kruthic
+"""
+
+holdings = {}
+cash = 4241.38
+
+holdings['joshi503'] = [15.41, 250]
+holdings['dramaqueen'] = [32.21, 200]
+holdings['happypotato1207'] = [57.08, 125]
+holdings['kaikey'] = [43.42, 175]
+holdings['mayank'] = [11.92, 500]
+holdings['ovidiupita'] = [28.34, 149]
+
+for key in holdings.keys():
+    print("value of ", end = "")
+    print(key, end = " ")
+    print(holdings[key][0] * holdings[key][1])
+    
+print(cash/28.34)
+
+    
