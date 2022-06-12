@@ -71,3 +71,7 @@ def comparator(p, q):   # Closest to range > Max difference in maxrating - cur_r
 cmp_func = cmp_to_key(comparator)
 
 best = sorted(all_content, key = cmp_func, reverse = False)
+
+for user in best:
+    print(user[3], end = " ")
+    print(user[2])
